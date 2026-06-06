@@ -1,0 +1,41 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Checkout | My Shop</title>
+    <style>
+        body { font-family: 'Segoe UI', sans-serif; background: #f4f4f4; display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0; }
+        .bill-box { background: white; padding: 40px; border-radius: 15px; box-shadow: 0 10px 30px rgba(0,0,0,0.1); text-align: center; width: 350px; }
+        h1 { color: #ff477e; margin-bottom: 10px; }
+        .amount { font-size: 32px; font-weight: bold; color: #333; margin: 20px 0; }
+        .status { color: #2e7d32; background: #e8f5e9; padding: 10px; border-radius: 5px; display: inline-block; }
+        .back-btn { margin-top: 25px; display: inline-block; text-decoration: none; color: #666; font-size: 14px; border-bottom: 1px solid #ccc; }
+    </style>
+</head>
+<body>
+<div class="bill-box">
+    <h1>Order Summary</h1>
+    <p>Thank you for shopping!</p>
+    <hr>
+    <div class="amount">Total: ₹<span id="final-amount">0</span></div>
+    <div>Ready for Payment</div>
+    <button class="add-btn" onclick="Ready">Ready for Pay</button>
+    <br>
+
+    <a href="index.html" class="back-btn">← Back to Shop</a>
+</div>
+<script>
+    // Extract the 'total' value from the URL
+    const params = new URLSearchParams(window.location.search);
+    const billValue = params.get('total');
+    
+    if (billValue) {
+        document.getElementById('final-amount').innerText = billValue;
+    } else {
+        document.getElementById('final-amount').innerText = "0";
+    }
+</script>
+
+</body>
+</html>
+
