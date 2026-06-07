@@ -1,3 +1,4 @@
+ [Click Here to View My All Certificates PDF](My_All_Certificate.pdf)
 ## Professional Certifications & Training
 
 - ☁️ *AWS Academy Graduate - Cloud Architecting* | AWS Academy (In Progress)
