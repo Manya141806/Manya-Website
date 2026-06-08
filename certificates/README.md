@@ -17,4 +17,4 @@
 - *Folk Dance Competition* - First Place, St. Joseph's Convent School (2017 - 2018)
 - *Group Dance Competition* - Second Place, St. Joseph's Convent School (2017 - 2018)
 - *Flag Making Competition* - Third Place, St. Joseph's Girls High School (2022 - 2023)
-- *10th Mark's Card* - St. Joseph's Girls High School (2022 - 2023)
+
